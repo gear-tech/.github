@@ -1,0 +1,26 @@
+name: Refactoring Proposal
+description: Propose refactoring or typo fixing
+title: "[Refactor]: "
+labels: [refactoring]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this refactoring proposal!
+
+  - type: input
+    id: file
+    attributes:
+      label: File Location
+      description: Path to the file(s) to be refactored if any.
+      placeholder: e.g. src/main.rs
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Please describe proposal details.
+      placeholder: For example refer to the code snippets and describe what can be improved.
+    validations:
+      required: true
