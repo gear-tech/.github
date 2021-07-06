@@ -1,0 +1,34 @@
+name: Feature Request
+description: Suggest an idea for this project
+title: "[Feature]: "
+labels: [feature]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to Solve
+      description: A clear and concise description of the problem this feature request is trying to solve.
+      placeholder: e.g. Improve performance
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Possible Solution
+      description: A clear and concise description of what you want to happen.
+      placeholder: e.g. Make it execute in parallel
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Any additional context or information you feel may be relevant to the issue.
