@@ -1,6 +1,5 @@
 name: Refactoring Proposal Form
 description: Propose refactoring or typo fixing
-title: "[Refactor]: "
 labels: [refactoring]
 
 body:

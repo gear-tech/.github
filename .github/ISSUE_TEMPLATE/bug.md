@@ -1,7 +1,6 @@
 ---
 name: Bug Report
 about: Create a report to help us get it right
-title: "[Bug]: "
 labels: bug
 ---
 <!--

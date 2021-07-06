@@ -1,7 +1,6 @@
 ---
 name: Refactoring Proposal
 about: Propose refactoring or typo fixing
-title: "[Refactor]: "
 labels: refactoring
 ---
 
