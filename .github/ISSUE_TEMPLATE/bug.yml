@@ -1,0 +1,51 @@
+name: Bug Report
+description: Create a report to help us get it right
+title: "[Bug]: "
+labels: [bug]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: A clear and concise description of what the bug is.
+      placeholder: What currently happens and what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      description: The steps to reproduce the bug.
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Possible Solution
+      description: Not obligatory, but suggest a fix/reason for the bug,
+      placeholder: Maybe some ideas how to implement the addition or change.
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Any additional context or information you feel may be relevant to the issue.
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Log Output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
