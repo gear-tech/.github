@@ -4,7 +4,7 @@ about: Propose refactoring or typo fixing
 labels: refactoring
 ---
 
-**File Location**
+**File Location(s)**
 <!-- Path to the file(s) to be refactored if any. -->
 
 **Proposal**

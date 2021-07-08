@@ -8,10 +8,10 @@ body:
       value: |
         Thanks for taking the time to fill out this refactoring proposal!
 
-  - type: input
+  - type: textarea
     id: file
     attributes:
-      label: File Location
+      label: File Location(s)
       description: Path to the file(s) to be refactored if any.
       placeholder: e.g. src/main.rs
 
