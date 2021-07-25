@@ -1,7 +1,7 @@
 ---
 name: Bug Report
 about: Create a report to help us get it right
-labels: bug
+labels: [bug, C0-bug]
 ---
 <!--
 Please provide a short summary of the bug, along with any information,

@@ -1,6 +1,6 @@
 name: Refactoring Proposal Form
 description: Propose refactoring or typo fixing
-labels: [refactoring]
+labels: [refactoring, C2-refactoring]
 
 body:
   - type: markdown

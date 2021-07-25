@@ -1,7 +1,7 @@
 ---
 name: Refactoring Proposal
 about: Propose refactoring or typo fixing
-labels: refactoring
+labels: [refactoring, C2-refactoring]
 ---
 
 **File Location(s)**

@@ -1,6 +1,6 @@
 name: Bug Report Form
 description: Create a report to help us get it right
-labels: [bug]
+labels: [bug, C0-bug]
 
 body:
   - type: markdown

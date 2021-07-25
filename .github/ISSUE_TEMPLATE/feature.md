@@ -1,7 +1,7 @@
 ---
 name: Feature Request
 about: Suggest an idea for this project
-labels: feature
+labels: [feature, C1-feature]
 ---
 
 **Problem to Solve**
