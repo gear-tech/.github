@@ -46,5 +46,14 @@ body:
     id: logs
     attributes:
       label: Relevant Log Output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      description: Please copy and paste any relevant log output between backticks.
+      value: |
+        <details><summary>Click to expand/collapse</summary>
+        <p>
+
+        ```
+        <Paste your log here>
+        ```
+
+        </p>
+        </details>
